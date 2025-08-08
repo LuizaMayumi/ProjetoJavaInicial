@@ -95,7 +95,22 @@ public class Main {
 //        }
 
 
-//        Aula 7 - Vetores
+//        Aula 7 - Git + Vetores
+//        Precisa definir uma qtd de itens q serao armazenados no array
+        int[] idades = new int[5];
+
+//        Uma maneira de adicionar dados no Array
+//        Informar a posicao em que o valor estara
+        idades [0] = 5;
+        idades [1] = 21;
+        idades [2] = 15;
+        idades [3] = 30;
+        idades [4] = 53;
+
+        for (int i = 0; i < idades.length; i++) {
+            System.out.println(idades [i]);
+        }
+
 
     }
 }
